@@ -29,7 +29,6 @@ header>div>p {
 }
 
 .header-first {
-    display: inline-block;
     display: flex;
     justify-content: center;
     column-gap: 5px;
@@ -39,7 +38,6 @@ header>div>p {
 
 
 .header-second {
-    display: inline-block;
     display: flex;
     justify-content: center;
     column-gap: 5px;
@@ -49,7 +47,6 @@ header>div>p {
 }
 
 .header-third {
-    display: inline-block;
     display: flex;
     justify-content: center;
     column-gap: 5px;
@@ -59,7 +56,6 @@ header>div>p {
 }
 
 .header-fourth {
-    display: inline-block;
     display: flex;
     justify-content: center;
     column-gap: 5px;
@@ -74,19 +70,22 @@ header>div>p {
 
 }
 
-.header-fifth-one>a {
+.header-fifth-one>nav>a {
     text-decoration: none;
     color: black;
     margin: 5px;
 }
 
-.header-fifth-two>a {
+.header-fifth-two>nav>a {
     text-decoration: none;
     color: black;
     margin: 6px;
 }
+.header-fifth-two{
+    display: flex;
+}
 
-.header-fifth-two>a>img {
+.header-fifth-two>nav>a>img {
     width: 11px;
 }
 
@@ -96,22 +95,21 @@ header>div>p {
 }
 
 .header-sixth {
-    display: inline-block;
     padding: 10px;
     background-color: #ffffff;
     display: flex;
-    justify-content: center;
     align-items: center;
     justify-content: space-evenly;
     text-transform: uppercase;
 
 }
 
+
 .header-sixth>a:hover {
     transform: scale(1.5)
 }
 
-.header-sixth>a {
+.header-sixth>nav>a {
     text-decoration: none;
     color: black;
 }
